@@ -1,0 +1,15 @@
+{
+  "name": "MailerBot",
+  "version": "1.0.0",
+  "description": "A discord bot used to send emails to users through discord. It's a very powerful and robust bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js
+  },
+  "author": "Jimmy",
+  "license": "Apache License v2.0,
+  "dependencies": {
+ 
+  }
+}
