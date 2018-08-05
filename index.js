@@ -107,10 +107,6 @@ transporter.sendMail(mailOptions, function(error, info){
        .setColor(0x4286f4)
        message.channel.sendEmbed(infoe);
        break;
-       /*case "123silly":
-       message.reply(":x: This command doesent exist! :x:");
-      message.author.sendMessage(`https://i.xturtle.rip/ckdwsd.mp4\n\nThis command does exist lmao. trolled.`); //this is a troll tho
-       break;*/
 	   case "users":
        const users = bot.users.map(g=>g.username).join("\n");
        xd(users).then(r => {
